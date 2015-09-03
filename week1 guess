@@ -1,0 +1,30 @@
+name=input("Hi, what is your Name? ")
+print("Hello " + name + "! Let's play a game!")
+print("Think of random number from 1 to 100, and I'll try to guess it!")
+_check="yes"
+while _check=="yes":
+    count=0
+    _upLimit=101    #use 100 will result missing 100 in guessing so we have to use 101
+    _lowLimit=0
+    number=50
+    while True:
+        print("Is it " + str(number) + "? (yes/no)", end=" ")     #number changes through iteration #number need to convert to string
+        _guess=input("") # remember to put ("")
+        count=count+1
+        if _guess=="yes":                #yes is a string
+            print("Yeey! I got it in " + str(count) + " tries!")
+            print("Do you want to play more?", end=" ")
+            _check=input("")
+            if _check=="yes":
+                break
+            else:
+                break
+        else:
+             _guess=input("Is the number larger than " + str(number) + "? (yes/no)")
+             if _guess=="yes":
+                _lowLimit=(_upLimit + _lowLimit)//2      #use // to avoid float
+                number=(_upLimit + _lowLimit)//2
+             else:
+                _upLimit=(_upLimit + _lowLimit)//2
+                number=(_upLimit + _lowLimit)//2
+print("Bye-bye")
