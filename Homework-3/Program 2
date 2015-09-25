@@ -1,0 +1,27 @@
+__author__ = 'Yukai Tseng'
+# Write a function count_frequency that takes a list of words as an argument,
+# counts how many times each word appears in the list, and then returns this frequency listing as a Python dictionary
+# Sample function call and output:
+
+# mylist=["one", "two","eleven",  "one", "three", "two", "eleven", "three", "seven", "eleven"]
+# print(count_frequency(mylist))
+
+# {'seven': 1, 'one': 2, 'eleven': 3, 'three': 2, 'two': 2}
+#------------------------------------------------------------------------------------------------------------------
+
+def count_frequency(wordList):
+    dictCounter={}
+    for word in wordList:
+        if word in dictCounter:     # if word already in dictCounter, increment dictCounter
+            dictCounter[word] +=1
+        else:
+            dictCounter[word] = 1   # if word appear the first time, set to 1
+    return dictCounter
+
+mylist=["one", "two","eleven",  "one", "three", "two", "eleven", "three", "seven", "eleven"]
+print(count_frequency(mylist))
+
+#-------------------------------------------------------------------------------------------------------------------
+""" Result:
+    {'one': 2, 'three': 2, 'eleven': 3, 'seven': 1, 'two': 2}
+"""
