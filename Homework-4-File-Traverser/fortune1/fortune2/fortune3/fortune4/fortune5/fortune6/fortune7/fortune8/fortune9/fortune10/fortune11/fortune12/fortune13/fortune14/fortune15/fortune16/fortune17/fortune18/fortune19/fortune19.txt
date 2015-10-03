@@ -1,0 +1,16 @@
+My father works for a multinational company and he is the manager of a project 
+that implements a new sales support system in the entire region he is operating 
+in. The program itself is a distributed database, allowing individual users to 
+make their own updates on their laptop PCs and then uploading their changes to a 
+server as well as downloading all the changes the other users have made. When he 
+wrote the instructions to the sales representatives on how to do this he got the 
+letter back from one of the regional offices with complaints. His original 
+instructions read like this:
+  From the File menu, select OS-Shell. This will make your screen look like 
+  this: C:\SPS\WIN
+  Now type DOWNLOAD to..., blah, blah, blah, etc, etc. 
+The hand-written remark on the sheet of paper was, &quot;These instructions are 
+incorrect and cannot be followed! Right after C:\SPS\WIN, a strange bracket (&gt;) 
+pops up and it will not go away!&quot; 
+
+[codehappy] http://iheartquotes.com/fortune/show/37014
