@@ -1,0 +1,30 @@
+C:\Python34\python.exe "C:/Users/Jutaro/Desktop/Python Homework/Homework 4/search_combine.py"
+Hello, What's your name? Yukai
+Thank you Yukai! Welcome to the little prince search engine!
+Please enter multiple keywords plus and/or boolean operators!
+query:down
+Performing AND search for: {'down'}
+
+Found at C:\Users\Jutaro\Desktop\Hw 4\1\fortune1\fortune2\fortune2.log | last modified time is: 2014-09-27 19:38:06 | Size: 827 bytes
+
+Execution time: 0
+
+Do you want to search more (yes or no)? yes
+query:vegetarian and plants
+Performing AND search for: {'plants', 'vegetarian'}
+
+Found Nothing!
+Execution time: 0
+
+Do you want to search more (yes or no)? yes
+query:outsmart and something
+Performing AND search for: {'outsmart', 'something'}
+
+Found at C:\Users\Jutaro\Desktop\Hw 4\1\fortune1\fortune2\fortune3\fortune3.txt | last modified time is: 2014-09-27 19:38:06 | Size: 215 bytes
+
+Execution time: 0
+
+Do you want to search more (yes or no)? no
+Bye-bye
+
+Process finished with exit code 0
