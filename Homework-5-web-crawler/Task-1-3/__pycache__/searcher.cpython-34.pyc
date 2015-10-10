@@ -1,0 +1,35 @@
+î
+drVƒ
+  ã               @   s,   d  d l  m  Z  d  d l Z d d „  Z d S)é    )ÚdatetimeNc             C   s5  t  j |  ƒ } | d } | j ƒ  t d ƒ } t d | d ƒ t d ƒ d } xÓ| d k r&t d ƒ } t | j ƒ  ƒ } d } d	 | k rÊ d
+ | k rÊ | j d	 ƒ t d t | ƒ d ƒ d
+ } n· d	 | k rd
+ | k r| j d	 ƒ | j d
+ ƒ t d t | ƒ d ƒ d } nd d	 | k rcd
+ | k rc| j d
+ ƒ t d t | ƒ d ƒ d } n t d t | ƒ d ƒ d } t	 | ƒ } g  }	 t
+ j ƒ  }
+ | d
+ k r
+xò t t
+ | ƒ ƒ D]H } | | | j ƒ  k r¾t	 t |	 ƒ j t | | | ƒ ƒ ƒ }	 q¾q¾Wn“ | d
+ | j ƒ  k r–| | d
+ }	 xl t d t
+ | ƒ ƒ D]H } | | | j ƒ  k rGt	 t |	 ƒ j t | | | ƒ ƒ ƒ }	 qGqGWn
+ t d ƒ t
+ j ƒ  } x& |	 D] }
+ t d t |
+ ƒ d ƒ q³Wt d | j |
+ j ƒ t d ƒ } x( | d k r"| d k r"t d ƒ } qûWqT Wt d ƒ d  S)NÚ	data_dictzHello, What's your name? z
+Thank you z-! Welcome to the little prince search engine!z=Please enter multiple keywords plus and/or boolean operators!Zyeszquery:é   ZorZandzPerforming OR search for: Ú
+r   zPerforming AND search for: zFound Nothing!z	Found at zExecution time:z)
+Do you want to search more (yes or no)? ZnozBye-byeéÿÿÿÿ)ÚshelveÚopenÚcloseÚinputÚprintÚsetÚsplitÚremoveÚstrÚlistr   ZnowÚrangeÚlenÚkeysÚunionÚintersectionZmicrosecond)Zshelve_fileÚsr   ÚnameZ
+searchMoreZqueryStringZ	splitDataZandOrOperationZandOrOperatoutputSetZ	outputSetZdt1ÚnZdt2Úvalue© r   ú7C:\Users\Jutaro\Desktop\Python Homework\Hw5\searcher.pyÚsearch   sb    
+
+
+
+	
+
+	
+	00
+
+r   )r   r   r   r   r   r   r   Ú<module>   s   
