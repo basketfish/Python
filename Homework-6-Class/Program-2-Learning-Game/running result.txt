@@ -1,0 +1,17 @@
+INTEGER DIVISIONS
+3 / 3 = 1
+CORRECT!
+3 / 1 = 3
+CORRECT!
+40 / 8 = 5
+CORRECT!
+42 / 6 = 7
+CORRECT!
+40 / 8 = e
+Please enter Integers Only!
+12 / 4 = 3
+CORRECT!
+42 / 7 = rr
+Please enter Integers Only!
+3 / 1 = 3
+CORRECT!
